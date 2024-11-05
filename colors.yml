@@ -1,0 +1,56 @@
+---
+# color           Color of the plotted data for ggplot, e.g. one of the predefined ggplot colors at
+#                 https://sape.inf.usi.ch/quick-reference/ggplot2/colour.
+#		  We try to use the JYU brand colors as much as possible - see the JYU intranet for more.
+#
+
+default:
+  courses:
+    CIBA110: "#002957" # JYU primary blue
+    CIBA120: "#F1563F" # JYU secondary orange
+    CIBA130: "#EA9D90" # JYU tertiary orange 60
+    CIBA140: "#B3BFCD" # JYU tertiary blue 30
+    CIBA150: "#6B7F97" # JYU tertiary blue 60
+    CIBA160: "#EDE1CE" # JYU primary beige
+    CIBA1700: "#C29A5B" # JYU secondary gold
+
+  meg:
+    Kasvatustieteiden ja psykologian: "#002957" # JYU primary blue
+    Liikuntatieteellinen: "#C29A5B" # JYU secondary gold
+    Kasvatustieteiden ja psykologian, liikuntatieteellinen: "#F1563F" # JYU secondary orange
+    Informaatioteknologian, kasvatustieteiden ja psykologian: "#EA9D90" # JYU tertiary orange
+    Humanistis-yhteiskuntatieteellinen, kasvatustieteiden ja psykologian: "#EDE1CE" # JYU primary beige
+    Kasvatustieteiden ja psykologian, kauppakorkeakoulu: "#EFF0F1" # JYU secondary gray
+  pubs:
+    EEG: "#002957" # JYU primary blue
+    MEG: "#EDE1CE" # JYU primary beige
+    Aivojen magneettistimulaatio: "#EFF0F1" # JYU secondary gray
+    Magneettikuvaus: "#C29A5B" # JYU secondary gold
+    Diffuusiotensorikuvaus: "#EA9D90" # JYU tertiary orange 60
+    Useita menetelmiä: "#B3BFCD" # JYU tertiary blue 30
+    Muu neurotiede: "#F1563F" # JYU secondary orange
+alt:
+  courses:
+    CIBA110: "#002957" # JYU primary blue
+    CIBA120: "#F1563F" # JYU secondary orange
+    CIBA130: "#EA9D90" # JYU tertiary orange 60
+    CIBA140: "#B3BFCD" # JYU tertiary blue 30
+    CIBA150: "#6B7F97" # JYU tertiary blue 60
+    CIBA160: "#EFF0F1" # JYU secondary gray
+    CIBA1700: "#C29A5B" # JYU secondary gold
+  meg:
+    Kasvatustieteiden ja psykologian: "#002957" # JYU primary blue
+    Liikuntatieteellinen: "#C29A5B" # JYU secondary gold
+    Kasvatustieteiden ja psykologian, liikuntatieteellinen: "#F1563F" # JYU secondary orange
+    Informaatioteknologian, kasvatustieteiden ja psykologian: "#EA9D90" # JYU tertiary orange
+    Humanistis-yhteiskuntatieteellinen, kasvatustieteiden ja psykologian: "#B3BFCD" # JYU tertiary blue 30
+    Kasvatustieteiden ja psykologian, kauppakorkeakoulu: "#EFF0F1" # JYU secondary gray
+  pubs:
+    EEG: "#002957" # JYU primary blue
+    MEG: "#EFF0F1" # JYU secondary gray
+    Aivojen magneettistimulaatio: "#B3BFCD" # JYU tertiary blue 30
+    Magneettikuvaus: "#C29A5B" # JYU secondary gold
+    Diffuusiotensorikuvaus: "#EA9D90" # JYU tertiary orange 60
+    Useita menetelmiä: "#6B7F97" # JYU tertiary blue 60
+    Muu neurotiede: "#F1563F" # JYU secondary orange
+...
